@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="490" viewBox="0 0 700 490" fill="none">
+  <title>Illustrative web application and companion mobile app</title>
+  <desc>A project overview on a laptop screen, alongside a notch-free mobile app showing a site checklist. Example interfaces.</desc>
+  <defs>
+    <filter id="shadow" x="-25%" y="-25%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020a19" flood-opacity=".35"/></filter>
+    <linearGradient id="screen" x1="60" y1="60" x2="560" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf2fc"/></linearGradient>
+    <linearGradient id="chart" x1="0" y1="220" x2="0" y2="288" gradientUnits="userSpaceOnUse"><stop stop-color="#2458ed" stop-opacity=".18"/><stop offset="1" stop-color="#2458ed" stop-opacity="0"/></linearGradient>
+    <linearGradient id="laptop-metal" x1="0" y1="414" x2="0" y2="443" gradientUnits="userSpaceOnUse"><stop stop-color="#dbe3ee"/><stop offset=".55" stop-color="#aab7ca"/><stop offset="1" stop-color="#677991"/></linearGradient>
+  </defs>
+  <g filter="url(#shadow)">
+    <!-- Laptop lid, slim bezel and camera. -->
+    <rect x="10" y="27" width="594" height="392" rx="17" fill="#101d32" stroke="#718098" stroke-width="1.5"/>
+    <circle cx="307" cy="36" r="2.5" fill="#263d5e"/>
+    <circle cx="307" cy="36" r="1" fill="#6f8db7"/>
+    <rect x="20" y="45" width="574" height="357" rx="12" fill="url(#screen)"/>
+    <rect x="20.5" y="45.5" width="573" height="356" rx="11.5" stroke="#fff" stroke-opacity=".7"/>
+    <path d="M32 45h550a12 12 0 0 1 12 12v26H20V57a12 12 0 0 1 12-12Z" fill="#e5eaf4"/>
+    <circle cx="40" cy="64" r="3" fill="#a2aec0"/><circle cx="52" cy="64" r="3" fill="#a2aec0"/><circle cx="64" cy="64" r="3" fill="#a2aec0"/>
+    <rect x="204" y="55" width="207" height="19" rx="5" fill="#f6f8fc"/>
+    <path d="M218 62v-2a2 2 0 0 1 4 0v2m-5 0h6v5h-6z" stroke="#8390a5" stroke-width="1"/>
+    <text x="302" y="68" text-anchor="middle" fill="#68768c" font-family="Arial,sans-serif" font-size="10">Your workspace</text>
+    <path d="M20 83h133v319H32a12 12 0 0 1-12-12Z" fill="#111e35"/>
+    <rect x="37" y="103" width="21" height="21" rx="5" fill="#2458ed"/>
+    <path d="m43 118 5-10 5 10m-8-3h6" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="65" y="118" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="bold">Workspace</text>
+    <rect x="30" y="147" width="113" height="31" rx="5" fill="#263959"/>
+    <g stroke="#a6b9db" stroke-width="1.4"><path d="M40 157h5v5h-5zm8 0h5v5h-5zm-8 8h5v5h-5zm8 0h5v5h-5z"/><path d="M41 196h12v10H41zm0 0v-3h5l2 3M41 237v-8a3 3 0 0 1 3-3h5a3 3 0 0 1 3 3v8m-13 0h15"/><circle cx="46.5" cy="220" r="3"/><path d="M41 269v-9m5 9v-15m6 15v-12"/></g>
+    <g font-family="Arial,sans-serif" font-size="11"><text x="62" y="167" fill="#fff">Overview</text><text x="62" y="203" fill="#a6b9db">Projects</text><text x="62" y="237" fill="#a6b9db">Your team</text><text x="62" y="270" fill="#a6b9db">Reports</text></g>
+    <circle cx="46" cy="372" r="10" fill="#2a3f60"/><text x="46" y="376" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="9">JD</text><text x="63" y="376" fill="#afbed4" font-family="Arial,sans-serif" font-size="10">My workspace</text>
+    <g font-family="Arial,sans-serif">
+      <text x="177" y="117" fill="#1d2b42" font-size="19" font-weight="bold">Project overview</text>
+      <text x="177" y="137" fill="#7d899c" font-size="10">A clearer view of your working day.</text>
+      <rect x="480" y="104" width="89" height="27" rx="5" fill="#2458ed"/><text x="524" y="121" text-anchor="middle" fill="#fff" font-size="10">+ New project</text>
+      <g fill="#fff" stroke="#e2e7f0"><rect x="176" y="155" width="121" height="65" rx="6"/><rect x="307" y="155" width="121" height="65" rx="6"/><rect x="438" y="155" width="131" height="65" rx="6"/></g>
+      <g fill="#7d899c" font-size="10"><text x="188" y="174">Active projects</text><text x="320" y="174">Tasks completed</text><text x="451" y="174">Team members</text></g>
+      <g fill="#1d2b42" font-size="24" font-weight="bold"><text x="188" y="204">12</text><text x="320" y="204">84</text><text x="451" y="204">18</text></g>
+      <text x="178" y="248" fill="#334259" font-size="11" font-weight="bold">Weekly activity</text>
+      <path d="M179 280h387M179 262h387" stroke="#e0e6f0"/>
+      <path d="m180 282 43-6 43 3 43-17 43 6 43-18 43 4 43-15 43 5 42-17v62H180Z" fill="url(#chart)"/>
+      <path d="m180 282 43-6 43 3 43-17 43 6 43-18 43 4 43-15 43 5 42-17" stroke="#2458ed" stroke-width="2.5" stroke-linejoin="round"/>
+      <text x="178" y="318" fill="#334259" font-size="11" font-weight="bold">Current projects</text><text x="456" y="318" fill="#8793a4" font-size="9">STATUS</text>
+      <path d="M178 330h389M178 359h389" stroke="#e0e6f0"/>
+      <rect x="179" y="340" width="14" height="14" rx="3" fill="#e5ecff"/><path d="m183 347 2 2 4-5" stroke="#2458ed" stroke-width="1.4"/>
+      <text x="204" y="350" fill="#4c5a70" font-size="10">Site coordination</text><text x="456" y="350" fill="#2458ed" font-size="9">In progress</text>
+      <rect x="179" y="370" width="14" height="14" rx="3" fill="#e5ecff"/><path d="m183 377 2 2 4-5" stroke="#2458ed" stroke-width="1.4"/>
+      <text x="204" y="380" fill="#4c5a70" font-size="10">Production planning</text><text x="456" y="380" fill="#2458ed" font-size="9">In progress</text>
+    </g>
+    <!-- Aluminium keyboard deck and bevel make the laptop silhouette clear. -->
+    <path d="M10 415h594l29 17H1Z" fill="url(#laptop-metal)" stroke="#d4deeb" stroke-width=".7"/>
+    <path d="M1 432h632c-4 7-14 11-27 11H28C15 443 5 439 1 432Z" fill="url(#laptop-metal)"/>
+    <path d="M272 415h71l5 8h-81Z" fill="#8595ad"/>
+    <path d="M277 416h61l3 4h-67Z" fill="#657990"/>
+    <path d="M25 432h585" stroke="#edf2fa" stroke-opacity=".65"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="516" y="157" width="157" height="301" rx="27" fill="#101d32" stroke="#5c6d88" stroke-width="1.5"/>
+    <rect x="522" y="163" width="145" height="289" rx="22" fill="#f7f9fd"/>
+    <text x="537" y="185" fill="#334259" font-family="Arial,sans-serif" font-size="8" font-weight="bold">9:41</text>
+    <path d="M620 182v3m3-5v5m3-7v7" stroke="#334259" stroke-width="1.6"/>
+    <rect x="633" y="178" width="15" height="7" rx="1.5" stroke="#334259"/>
+    <rect x="635" y="180" width="10" height="3" rx=".5" fill="#334259"/>
+    <path d="M650 180v3" stroke="#334259"/>
+    <g font-family="Arial,sans-serif">
+      <text x="535" y="204" fill="#7d899c" font-size="9">MONDAY, 14 SEPTEMBER</text>
+      <text x="535" y="228" fill="#1d2b42" font-size="19" font-weight="bold">Hello, Jamie.</text>
+      <text x="535" y="245" fill="#7d899c" font-size="9">Let’s get things moving.</text>
+      <rect x="534" y="260" width="121" height="59" rx="8" fill="#2458ed"/>
+      <text x="544" y="279" fill="#dce5ff" font-size="9">Today’s progress</text><text x="544" y="300" fill="#fff" font-size="14" font-weight="bold">4 of 6 tasks</text>
+      <circle cx="635" cy="290" r="11" stroke="#ffffff40" stroke-width="3"/><path d="M635 279a11 11 0 1 1-9.5 16.5" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <text x="535" y="342" fill="#334259" font-size="11" font-weight="bold">Site checklist</text>
+      <circle cx="543" cy="362" r="7" fill="#e5ecff"/><path d="m540 362 2 2 4-4" stroke="#2458ed" stroke-width="1.5"/><text x="558" y="366" fill="#66758b" font-size="9">Morning inspection</text>
+      <path d="M535 379h119" stroke="#e1e7f0"/><circle cx="543" cy="394" r="7" stroke="#c3cedf"/><text x="558" y="397" fill="#334259" font-size="9">Update project team</text>
+    </g>
+    <path d="M523 416h143" stroke="#e1e7f0"/>
+    <g stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m544 430 6-5 6 5v7h-12Z" stroke="#2458ed"/><path d="M588 426h12v12h-12zm3 4h6m-6 4h4" stroke="#99a5b8"/><circle cx="636" cy="428" r="3" stroke="#99a5b8"/><path d="M630 438v-2a6 6 0 0 1 12 0v2" stroke="#99a5b8"/></g>
+    <rect x="573" y="444" width="43" height="3" rx="1.5" fill="#14233c"/>
+  </g>
+</svg>

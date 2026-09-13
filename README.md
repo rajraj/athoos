@@ -18,9 +18,12 @@ Visit http://localhost:8000. Refresh the browser after editing. Press Ctrl+C to 
 
 - `public/index.html` — all page content, navigation and inline SVG icons.
 - `public/styles.css` — styling, responsive layout and CSS animations.
+- `public/software-illustration.svg` — decorative laptop and notch-free phone with example web and mobile interfaces overlaid on the hero; these are illustrations, not interactive product screens.
 - `public/athoos.svg` — vector logo used in the header and footer, with its viewBox fitted to the artwork.
 - `public/athoos-logo.jpeg` — original JPEG, retained as a backup.
-- `public/hero-london.jpg` — current London skyline hero photograph.
+- `public/hero-tower-bridge.webp` — current hero: your Tower Bridge photograph, cropped and edited to remove foreground people and the temporary barrier.
+- `public/london.jpeg` — your original photograph, preserved unchanged.
+- `public/hero-london.jpg` — previous stock London skyline photograph.
 - `public/hero-industrial.jpg` — previous industrial hero photograph.
 - `public/architecture.jpg` — previous hero photograph, retained as an alternative.
 - `public/fonts/` — local Geist fonts and their licence.
@@ -53,7 +56,8 @@ Alternatively, upload the contents of `public/` using Cloudflare Pages Direct Up
 
 ## Credits
 
-Hero photography: [Carmen Dominguez on Unsplash](https://unsplash.com/photos/sunset-over-a-river-with-a-city-skyline-QIaCZ3gTqCs), used under the Unsplash License.
+Hero photography: supplied by the site owner; edited for the website with AI-assisted foreground cleanup.
+Previous London skyline photograph: [Carmen Dominguez on Unsplash](https://unsplash.com/photos/sunset-over-a-river-with-a-city-skyline-QIaCZ3gTqCs), used under the Unsplash License.
 Previous industrial photography: [Declan Sun on Unsplash](https://unsplash.com/photos/steel-beams-of-an-industrial-buildings-roof-Jfr7YZWcyVY), used under the Unsplash License.
 Previous architecture photography: Unsplash, photo-1486406146926-c627a92ad1ab.
 Geist fonts: Vercel, SIL Open Font License (included in `public/fonts/OFL.txt`).
