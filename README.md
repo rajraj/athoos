@@ -24,7 +24,9 @@ Visit http://localhost:8000. Refresh the browser after editing. Press Ctrl+C to 
 - `public/hero-industrial.jpg` — previous industrial hero photograph.
 - `public/architecture.jpg` — previous hero photograph, retained as an alternative.
 - `public/fonts/` — local Geist fonts and their licence.
-- `public/icon.svg` — temporary favicon.
+- `public/icon.svg` — favicon using the original logo’s “A” in site blue on a white rounded square.
+- `public/icons/` — 192px and 512px app icons, separate maskable variants, and a 180px Apple touch icon.
+- `public/site.webmanifest` — app name, icon references, theme colours and standalone launch settings.
 
 All asset links are relative, so the page also works when opened as a local file. The footer year is plain text; update it when needed.
 
@@ -57,3 +59,5 @@ Previous architecture photography: Unsplash, photo-1486406146926-c627a92ad1ab.
 Geist fonts: Vercel, SIL Open Font License (included in `public/fonts/OFL.txt`).
 
 The hero has a CSS-only 4.8-second background zoom and staggered text entrance. Motion is disabled when the visitor prefers reduced motion.
+
+App icons are rendered from `public/icon.svg`. Maskable variants have an opaque white background and extra padding for device-specific icon shapes. The manifest provides home-screen identity; offline caching is not included. Test installation over HTTPS or localhost, rather than opening the HTML file directly.
