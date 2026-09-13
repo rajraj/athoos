@@ -67,7 +67,8 @@ p {
 svg {
   flex-shrink: 0;
 }
-.wrap {
+.wrap,
+.header-inner {
   width: min(1280px, calc(100% - 112px));
   margin-inline: auto;
 }
@@ -81,8 +82,6 @@ svg {
 }
 .header-inner {
   height: 100%;
-  width: min(1440px, calc(100% - 112px));
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -145,18 +144,19 @@ nav > a:hover {
 }
 .hero-image {
   object-fit: cover;
-  object-position: 75% 48%;
-  filter: saturate(0.2);
-  animation: image-enter 1.5s ease-out both;
+  object-position: 65% 50%;
+  filter: saturate(0.75) brightness(0.9);
+  transform-origin: 65% 60%;
+  animation: hero-drift 4.8s cubic-bezier(0.2, 0.6, 0.3, 1) both;
 }
 .hero-shade {
   z-index: -1;
   background:
     linear-gradient(
       90deg,
-      rgba(10, 20, 34, 0.97) 0%,
-      rgba(10, 20, 34, 0.84) 36%,
-      rgba(10, 20, 34, 0.25) 100%
+      rgba(10, 20, 34, 0.96) 0%,
+      rgba(10, 20, 34, 0.8) 36%,
+      rgba(10, 20, 34, 0.2) 100%
     ),
     linear-gradient(0deg, rgba(10, 20, 34, 0.6), transparent 40%);
 }
@@ -525,12 +525,13 @@ nav > a:hover {
     transform: translateY(0);
   }
 }
-@keyframes image-enter {
+/* One gentle movement, then still; no continuous animation or scripts. */
+@keyframes hero-drift {
   from {
-    transform: scale(1.045);
+    transform: scale(1.075) translateX(-0.7%);
   }
   to {
-    transform: scale(1);
+    transform: scale(1.01) translateX(0);
   }
 }
 @supports (animation-timeline: view()) {
@@ -578,7 +579,7 @@ nav > a:hover {
     font-size: 38px;
   }
   .hero-image {
-    object-position: 62% center;
+    object-position: 65% center;
   }
   .contact-inner {
     gap: 30px;
@@ -650,7 +651,7 @@ nav > a:hover {
       linear-gradient(0deg, #0a1422aa, transparent);
   }
   .hero-image {
-    object-position: 59% center;
+    object-position: 72% center;
   }
   .hero-bottom {
     bottom: 23px;
